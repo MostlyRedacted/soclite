@@ -70,7 +70,7 @@ export function Footer() {
 
         <div className="mt-12 flex flex-col items-center justify-between gap-4 border-t border-line pt-6 sm:flex-row">
           <p className="text-[12.5px] text-ink-faint">
-            © {new Date().getFullYear()} SocLite.ai — Your lightweight AI SOC.
+            © {new Date().getFullYear()} SocLite.ai. Your lightweight AI SOC.
           </p>
           <p className="font-mono text-[11px] text-ink-faint">
             Built for teams without a security team.

@@ -37,12 +37,12 @@ export function FinalCta() {
           </div>
 
           <h2 className="mx-auto mt-6 max-w-2xl text-balance text-3xl font-semibold tracking-tight text-ink sm:text-[40px] sm:leading-[1.08]">
-            Give your team the clarity of a SOC — without building one.
+            Get the clarity of a SOC without building one.
           </h2>
 
           <p className="mx-auto mt-4 max-w-xl text-pretty text-[16px] leading-relaxed text-ink-muted">
             Join the waitlist to be first in line for early releases and product
-            updates. No credit card, no commitment — just a sharper way to
+            updates. No credit card, no commitment, just a sharper way to
             handle security.
           </p>
 

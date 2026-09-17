@@ -14,13 +14,13 @@ const segments = [
   {
     icon: IconRocket,
     title: "Startup founders",
-    body: "You're shipping fast and can't afford a breach or a full-time analyst. Get enterprise-grade coverage without hiring for it.",
-    line: "Security that scales with you",
+    body: "You're moving fast and can't afford a breach or a full-time analyst. Get real coverage without hiring for it.",
+    line: "Security that keeps up",
   },
   {
     icon: IconBuilding,
     title: "SMB owners",
-    body: "Compliance, customer trust, and cyber-insurance requirements — handled, without turning your business into a security company.",
+    body: "Handle compliance, customer trust, and cyber-insurance requirements without turning your company into a security team.",
     line: "Trust you can demonstrate",
   },
   {
@@ -32,8 +32,8 @@ const segments = [
   {
     icon: IconUsers,
     title: "Lean security teams",
-    body: "One or two people covering everything. SocLite is the force multiplier that lets a small team punch far above its headcount.",
-    line: "A whole SOC, amplified",
+    body: "One or two people covering everything. SocLite takes the first pass so your time goes to the calls that actually need a human.",
+    line: "More signal, less grind",
   },
 ];
 

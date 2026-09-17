@@ -8,7 +8,7 @@ const problems = [
   {
     stat: "11,000+",
     label: "alerts a week",
-    body: "Endpoint, identity, cloud, and email tools all fire at once. Most are noise — but you can't tell which until you've read them.",
+    body: "Endpoint, identity, cloud, and email tools all fire at once. Most are noise, but you can't tell which until you've read them.",
   },
   {
     stat: "0",
@@ -23,7 +23,7 @@ const problems = [
   {
     stat: "1 in 20",
     label: "actually matters",
-    body: "The signal that matters is buried in the noise. Missing it isn't a maybe — it's the difference between a non-event and a breach.",
+    body: "The one that matters is buried in the noise. Miss it, and a quiet Tuesday turns into a breach.",
   },
 ];
 

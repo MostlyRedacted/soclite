@@ -3,7 +3,7 @@ import { cn } from "@/lib/cn";
 /** App-window frame used to house the product mockups. */
 export function WindowChrome({
   children,
-  title = "soclite.ai — console",
+  title = "soclite.ai / console",
   className,
 }: {
   children: React.ReactNode;

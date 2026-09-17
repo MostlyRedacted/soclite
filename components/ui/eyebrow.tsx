@@ -1,6 +1,6 @@
 import { cn } from "@/lib/cn";
 
-/** Small uppercase label with a signal dot — the section "kicker". */
+/** Small uppercase label with a signal dot: the section "kicker". */
 export function Eyebrow({
   children,
   className,

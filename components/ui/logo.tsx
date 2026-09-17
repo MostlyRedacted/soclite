@@ -1,6 +1,6 @@
 import { cn } from "@/lib/cn";
 
-/** SocLite mark — a lightweight shield with a signal pulse. */
+/** SocLite mark: a lightweight shield with a signal pulse. */
 export function LogoMark({ className }: { className?: string }) {
   return (
     <svg

@@ -4,7 +4,7 @@
  * The client calls `submitWaitlist()` which posts to `/api/waitlist`.
  * The API route (app/api/waitlist/route.ts) currently persists to a local
  * JSON file as a placeholder. To move to Supabase (or any backend) later,
- * only the storage adapter in that route needs to change — this contract
+ * only the storage adapter in that route needs to change this contract
  * and the UI stay the same.
  */
 
@@ -17,7 +17,7 @@ export interface WaitlistPayload {
 export interface WaitlistResult {
   ok: boolean;
   message: string;
-  /** True when the address was already on the list — treated as success in the UI. */
+  /** True when the address was already on the list treated as success in the UI. */
   duplicate?: boolean;
 }
 
@@ -60,7 +60,7 @@ export async function submitWaitlist(
   } catch {
     return {
       ok: false,
-      message: "Network error — check your connection and try again.",
+      message: "Network error. Check your connection and try again.",
     };
   }
 }

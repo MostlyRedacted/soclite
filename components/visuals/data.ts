@@ -59,7 +59,7 @@ export const incidents: Incident[] = [
 export const triageSummary = {
   incidentId: "INC-4821",
   headline:
-    "A privileged admin signed in from two locations 1,900 km apart within 7 minutes — consistent with a stolen session or credential.",
+    "A privileged admin signed in from two locations 1,900 km apart within 7 minutes. That pattern fits a stolen session, not real travel.",
   signals: [
     "Sign-in from Lisbon, PT at 09:02 UTC on a known device",
     "Sign-in from Frankfurt, DE at 09:09 UTC on an unrecognized device",

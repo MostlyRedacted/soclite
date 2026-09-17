@@ -25,7 +25,7 @@ const features = [
   {
     icon: IconGauge,
     title: "Threat Prioritization",
-    body: "A single priority score blends severity, asset value, and blast radius — so you always know what to handle first.",
+    body: "A single priority score blends severity, asset value, and blast radius, so you always know what to handle first.",
     span: "",
   },
   {
@@ -37,7 +37,7 @@ const features = [
   {
     icon: IconWrench,
     title: "Recommended Remediation",
-    body: "Each incident ships with concrete next steps — revoke this session, block that domain, remove that rule — ranked by impact.",
+    body: "Each incident ships with concrete next steps, ranked by impact: revoke this session, block that domain, remove that rule.",
     span: "lg:col-span-2",
     accent: true,
   },
@@ -50,7 +50,7 @@ const features = [
   {
     icon: IconServer,
     title: "Lightweight Deployment",
-    body: "Agentless, read-only, cloud-native. Connect your stack and get value the same afternoon — no SIEM migration, no new headcount.",
+    body: "Agentless, read-only, cloud-native. Connect your stack and get value the same afternoon. No SIEM migration, no new headcount.",
     span: "lg:col-span-2",
   },
 ];
@@ -62,7 +62,7 @@ export function Features() {
         <SectionHeader
           eyebrow="Capabilities"
           title="Everything a SOC does. None of the overhead."
-          description="Purpose-built for teams that need security outcomes without a security operations center — or the budget for one."
+          description="Built for teams that need the results of a security operations center without the staff, tooling, or budget for one."
         />
 
         <motion.div

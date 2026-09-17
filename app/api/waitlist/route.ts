@@ -83,7 +83,7 @@ export async function POST(request: Request) {
       return NextResponse.json({
         ok: true,
         duplicate: true,
-        message: "You're already on the list — we'll be in touch.",
+        message: "You're already on the list. We'll be in touch.",
       });
     }
 

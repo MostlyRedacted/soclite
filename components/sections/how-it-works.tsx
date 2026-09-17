@@ -15,7 +15,7 @@ const steps = [
     n: "01",
     icon: IconPlug,
     title: "Connect your alerts",
-    body: "Point SocLite at the tools you already run — identity, endpoint, cloud, email, firewall. Read-only, agentless, live in minutes.",
+    body: "Point SocLite at the tools you already run: identity, endpoint, cloud, email, firewall. Read-only, agentless, live in minutes.",
     meta: "3-minute setup",
   },
   {
@@ -29,7 +29,7 @@ const steps = [
     n: "03",
     icon: IconMessage,
     title: "Get plain-English clarity",
-    body: "Each incident comes with a summary anyone can read: what happened, why it matters, and the evidence behind it — no query language required.",
+    body: "Each incident comes with a summary anyone can read: what happened, why it matters, and the evidence behind it. No query language required.",
     meta: "Human-readable",
   },
   {
@@ -48,7 +48,7 @@ export function HowItWorks() {
         <SectionHeader
           eyebrow="How it works"
           title="From raw signal to resolved incident"
-          description="A security operations workflow that runs itself — so a two-person team gets the outcome of a full SOC."
+          description="A security workflow that runs itself, so a two-person team gets the output of a full SOC."
         />
 
         <motion.div

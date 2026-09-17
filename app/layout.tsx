@@ -14,7 +14,7 @@ const mono = JetBrains_Mono({
   display: "swap",
 });
 
-const title = "SocLite.ai — Your lightweight AI SOC";
+const title = "SocLite.ai · Your lightweight AI SOC";
 const description =
   "SocLite.ai turns noisy security alerts into clear next steps. AI-powered triage, plain-English incident summaries, and threat prioritization for teams without a security team.";
 

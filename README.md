@@ -1,4 +1,4 @@
-# SocLite.ai — Landing Page
+# SocLite.ai Landing Page
 
 A premium, dark-mode-first landing page for **SocLite.ai**, a lightweight
 AI-powered security operations platform for small and mid-sized businesses.
@@ -49,17 +49,17 @@ lib/
 
 Defined once in `app/globals.css` via Tailwind v4 `@theme`:
 
-- **Surfaces** — deep near-black (`--color-void`) through elevated glass
-- **Accents** — electric cyan, teal, blue (restrained, no rainbow gradients)
-- **Severity signals** — critical / high / medium / low
-- **Type** — Inter (sans) + JetBrains Mono (data/terminal feel)
-- **Utilities** — layered grid, radial glows, glassmorphism, gradient text
+- **Surfaces** deep near-black (`--color-void`) through elevated glass
+- **Accents** electric cyan, teal, blue (restrained, no rainbow gradients)
+- **Severity signals** critical / high / medium / low
+- **Type** Inter (sans) + JetBrains Mono (data/terminal feel)
+- **Utilities** layered grid, radial glows, glassmorphism, gradient text
 
 ## Waitlist
 
 The form is fully functional. Submissions POST to `/api/waitlist`, which
 persists to a local JSON file (`data/waitlist.json`) as a zero-config
-placeholder — so it works end-to-end immediately.
+placeholder so it works end-to-end immediately.
 
 **To connect a real backend (e.g. Supabase):** replace the `saveEntry` /
 `hasEntry` adapter functions at the top of `app/api/waitlist/route.ts`. The

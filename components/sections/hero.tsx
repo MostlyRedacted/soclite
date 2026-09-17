@@ -43,10 +43,9 @@ export function Hero() {
             variants={fadeUp}
             className="mt-5 text-pretty text-[16px] leading-relaxed text-ink-muted sm:text-[17px]"
           >
-            SocLite.ai is the security operations layer for teams without a
-            security team. It ingests your alerts, explains what actually
-            matters in plain English, prioritizes real threats, and tells you
-            exactly what to do next.
+            SocLite.ai is the security layer for teams that don&apos;t have one.
+            It reads every alert, tells you which ones are real, and gives you
+            the exact steps to shut them down.
           </motion.p>
 
           <motion.div

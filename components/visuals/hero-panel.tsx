@@ -18,7 +18,7 @@ export function HeroPanel() {
         className="absolute -inset-6 -z-10 rounded-[32px] bg-[radial-gradient(60%_60%_at_70%_20%,rgba(34,211,238,0.18),transparent_70%)] blur-2xl"
       />
 
-      <WindowChrome title="soclite.ai — triage">
+      <WindowChrome title="soclite.ai / triage">
         <div className="grid grid-cols-1 gap-px bg-line/60 sm:grid-cols-4">
           {metrics.map((m) => (
             <div key={m.label} className="bg-surface px-4 py-3">
@@ -54,8 +54,8 @@ export function HeroPanel() {
                 </div>
                 <p className="text-[12px] leading-relaxed text-ink-muted">
                   Admin signed in from two cities 1,900&nbsp;km apart in
-                  7&nbsp;minutes, then a mail-forwarding rule appeared —
-                  likely a stolen session.
+                  7&nbsp;minutes, then a mail-forwarding rule appeared. Likely a
+                  stolen session.
                 </p>
               </div>
 

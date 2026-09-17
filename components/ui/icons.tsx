@@ -1,5 +1,5 @@
 /**
- * Inline stroke icons — 24x24, currentColor, 1.6 stroke.
+ * Inline stroke icons: 24x24, currentColor, 1.6 stroke.
  * Kept minimal and consistent so feature/step cards read as one system.
  */
 import { cn } from "@/lib/cn";
