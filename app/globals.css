@@ -1,0 +1,163 @@
+@import "tailwindcss";
+
+/* ============================================================
+   SocLite.ai — Design System
+   Dark-mode-first, security-focused, cyber-modern.
+   ============================================================ */
+
+@theme {
+  /* Surfaces — deep near-black through elevated glass */
+  --color-void: #04060a;
+  --color-base: #070a10;
+  --color-surface: #0b0f17;
+  --color-surface-2: #10151f;
+  --color-line: #1a2230;
+  --color-line-soft: #141a26;
+
+  /* Text */
+  --color-ink: #e8eef6;
+  --color-ink-muted: #93a1b5;
+  --color-ink-faint: #5f6c80;
+
+  /* Accents — electric blue / cyan / teal, restrained */
+  --color-cyan: #22d3ee;
+  --color-cyan-bright: #67e8f9;
+  --color-blue: #3b82f6;
+  --color-teal: #2dd4bf;
+
+  /* Severity signals */
+  --color-critical: #f8717a;
+  --color-high: #fb923c;
+  --color-medium: #fbbf24;
+  --color-low: #34d399;
+
+  --font-sans: var(--font-inter), ui-sans-serif, system-ui, sans-serif;
+  --font-mono: var(--font-mono), ui-monospace, "SF Mono", Menlo, monospace;
+
+  --radius-card: 16px;
+
+  --animate-marquee: marquee 38s linear infinite;
+  --animate-pulse-soft: pulse-soft 3.2s ease-in-out infinite;
+  --animate-scan: scan 7s linear infinite;
+  --animate-ticker: ticker 2.4s steps(1) infinite;
+}
+
+@keyframes marquee {
+  from { transform: translateX(0); }
+  to { transform: translateX(-50%); }
+}
+
+@keyframes pulse-soft {
+  0%, 100% { opacity: 0.55; }
+  50% { opacity: 1; }
+}
+
+@keyframes scan {
+  0% { transform: translateY(-100%); }
+  100% { transform: translateY(1200%); }
+}
+
+@keyframes ticker {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.35; }
+}
+
+* {
+  border-color: var(--color-line);
+}
+
+html {
+  scroll-behavior: smooth;
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  background-color: var(--color-void);
+  color: var(--color-ink);
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  overflow-x: hidden;
+}
+
+::selection {
+  background: color-mix(in oklab, var(--color-cyan) 30%, transparent);
+  color: #fff;
+}
+
+/* Refined scrollbar */
+::-webkit-scrollbar { width: 10px; height: 10px; }
+::-webkit-scrollbar-track { background: var(--color-base); }
+::-webkit-scrollbar-thumb {
+  background: var(--color-line);
+  border-radius: 999px;
+  border: 2px solid var(--color-base);
+}
+::-webkit-scrollbar-thumb:hover { background: #26303f; }
+
+@layer utilities {
+  /* Layered technical grid background */
+  .bg-grid {
+    background-image:
+      linear-gradient(to right, color-mix(in oklab, var(--color-line) 55%, transparent) 1px, transparent 1px),
+      linear-gradient(to bottom, color-mix(in oklab, var(--color-line) 55%, transparent) 1px, transparent 1px);
+    background-size: 56px 56px;
+  }
+
+  .bg-dots {
+    background-image: radial-gradient(color-mix(in oklab, var(--color-line) 90%, transparent) 1px, transparent 1px);
+    background-size: 22px 22px;
+  }
+
+  /* Radial glow helpers */
+  .glow-cyan {
+    box-shadow: 0 0 0 1px color-mix(in oklab, var(--color-cyan) 22%, transparent),
+                0 24px 80px -24px color-mix(in oklab, var(--color-cyan) 35%, transparent);
+  }
+
+  .text-gradient {
+    background: linear-gradient(180deg, #ffffff 0%, #b9c6d6 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+  }
+
+  .text-gradient-cyan {
+    background: linear-gradient(100deg, var(--color-cyan-bright) 0%, var(--color-teal) 45%, var(--color-blue) 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+  }
+
+  /* Glass card surface used sparingly */
+  .glass {
+    background:
+      linear-gradient(180deg, color-mix(in oklab, var(--color-surface) 92%, transparent), color-mix(in oklab, var(--color-base) 88%, transparent));
+    backdrop-filter: blur(12px);
+    border: 1px solid var(--color-line);
+  }
+
+  .hairline {
+    border: 1px solid color-mix(in oklab, var(--color-line) 90%, transparent);
+  }
+
+  .mask-fade-x {
+    -webkit-mask-image: linear-gradient(to right, transparent, #000 12%, #000 88%, transparent);
+    mask-image: linear-gradient(to right, transparent, #000 12%, #000 88%, transparent);
+  }
+
+  .mask-fade-b {
+    -webkit-mask-image: linear-gradient(to bottom, #000 60%, transparent);
+    mask-image: linear-gradient(to bottom, #000 60%, transparent);
+  }
+}
+
+/* Respect reduced motion */
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+    scroll-behavior: auto !important;
+  }
+}
