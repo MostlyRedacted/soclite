@@ -50,7 +50,7 @@ lib/
 Defined once in `app/globals.css` via Tailwind v4 `@theme`:
 
 - **Surfaces** deep near-black (`--color-void`) through elevated glass
-- **Accents** electric cyan, teal, blue (restrained, no rainbow gradients)
+- **Accents** electric royal blue and azure (restrained, no rainbow gradients)
 - **Severity signals** critical / high / medium / low
 - **Type** Inter (sans) + JetBrains Mono (data/terminal feel)
 - **Utilities** layered grid, radial glows, glassmorphism, gradient text
