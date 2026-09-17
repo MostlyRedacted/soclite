@@ -19,11 +19,13 @@
   --color-ink-muted: #93a1b5;
   --color-ink-faint: #5f6c80;
 
-  /* Accents — electric blue / cyan / teal, restrained */
-  --color-cyan: #22d3ee;
-  --color-cyan-bright: #67e8f9;
-  --color-blue: #3b82f6;
-  --color-teal: #2dd4bf;
+  /* Accents — electric ultramarine / royal blue / azure, restrained.
+     Token names kept (cyan/teal/blue) so components need no changes;
+     the values below define the brand accent in one place. */
+  --color-cyan: #4d7cff;
+  --color-cyan-bright: #7aa0ff;
+  --color-blue: #3b5bdb;
+  --color-teal: #22b0f5;
 
   /* Severity signals */
   --color-critical: #f8717a;

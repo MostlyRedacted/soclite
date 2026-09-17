@@ -29,7 +29,7 @@ export function FinalCta() {
             className="pointer-events-none absolute inset-0 -z-10"
           >
             <div className="absolute inset-0 bg-dots opacity-[0.5] mask-fade-b" />
-            <div className="absolute -top-24 left-1/2 h-72 w-[560px] -translate-x-1/2 rounded-full bg-[radial-gradient(closest-side,rgba(34,211,238,0.18),transparent)] blur-2xl" />
+            <div className="absolute -top-24 left-1/2 h-72 w-[560px] -translate-x-1/2 rounded-full bg-[radial-gradient(closest-side,rgba(77,124,255,0.18),transparent)] blur-2xl" />
           </div>
 
           <div className="flex justify-center">

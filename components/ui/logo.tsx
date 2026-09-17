@@ -11,9 +11,9 @@ export function LogoMark({ className }: { className?: string }) {
     >
       <defs>
         <linearGradient id="soclite-mark" x1="4" y1="2" x2="28" y2="30" gradientUnits="userSpaceOnUse">
-          <stop stopColor="#67e8f9" />
-          <stop offset="0.5" stopColor="#2dd4bf" />
-          <stop offset="1" stopColor="#3b82f6" />
+          <stop stopColor="#7aa0ff" />
+          <stop offset="0.5" stopColor="#22b0f5" />
+          <stop offset="1" stopColor="#3b5bdb" />
         </linearGradient>
       </defs>
       <path

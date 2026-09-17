@@ -33,7 +33,7 @@ export function ProductPreview() {
         >
           <div
             aria-hidden
-            className="absolute -inset-x-6 -top-8 bottom-0 -z-10 rounded-[40px] bg-[radial-gradient(60%_50%_at_50%_0%,rgba(34,211,238,0.12),transparent_70%)] blur-2xl"
+            className="absolute -inset-x-6 -top-8 bottom-0 -z-10 rounded-[40px] bg-[radial-gradient(60%_50%_at_50%_0%,rgba(77,124,255,0.12),transparent_70%)] blur-2xl"
           />
           <WindowChrome
             title="soclite.ai / incident console"

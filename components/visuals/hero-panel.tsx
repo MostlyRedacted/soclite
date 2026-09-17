@@ -15,7 +15,7 @@ export function HeroPanel() {
       {/* ambient glow */}
       <div
         aria-hidden
-        className="absolute -inset-6 -z-10 rounded-[32px] bg-[radial-gradient(60%_60%_at_70%_20%,rgba(34,211,238,0.18),transparent_70%)] blur-2xl"
+        className="absolute -inset-6 -z-10 rounded-[32px] bg-[radial-gradient(60%_60%_at_70%_20%,rgba(77,124,255,0.18),transparent_70%)] blur-2xl"
       />
 
       <WindowChrome title="soclite.ai / triage">

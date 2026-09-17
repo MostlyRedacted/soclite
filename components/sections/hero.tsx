@@ -33,7 +33,7 @@ export function Hero() {
 
           <motion.h1
             variants={fadeUp}
-            className="mt-6 text-balance text-4xl font-semibold leading-[1.05] tracking-tight sm:text-5xl lg:text-[3.4rem]"
+            className="mt-6 text-balance text-[2.7rem] font-extrabold leading-[1.0] tracking-[-0.03em] sm:text-[3.3rem] lg:text-[3.9rem]"
           >
             <span className="text-gradient">Turn noisy alerts into</span>{" "}
             <span className="text-gradient-cyan">clear next steps.</span>

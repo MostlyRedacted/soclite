@@ -84,7 +84,7 @@ export function Features() {
                 )}
               >
                 {f.accent && (
-                  <div className="pointer-events-none absolute inset-0 bg-[radial-gradient(120%_80%_at_100%_0%,rgba(34,211,238,0.06),transparent_60%)] opacity-0 transition-opacity duration-300 group-hover:opacity-100" />
+                  <div className="pointer-events-none absolute inset-0 bg-[radial-gradient(120%_80%_at_100%_0%,rgba(77,124,255,0.06),transparent_60%)] opacity-0 transition-opacity duration-300 group-hover:opacity-100" />
                 )}
                 <div className="relative flex items-start gap-4">
                   <span className="flex h-11 w-11 shrink-0 items-center justify-center rounded-xl border border-line bg-white/[0.03] text-cyan transition-colors group-hover:border-cyan/30">

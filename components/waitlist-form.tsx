@@ -110,7 +110,7 @@ export function WaitlistForm({
             >
               {status === "loading" ? (
                 <>
-                  <span className="h-4 w-4 animate-spin rounded-full border-2 border-[#03121a]/40 border-t-[#03121a]" />
+                  <span className="h-4 w-4 animate-spin rounded-full border-2 border-white/40 border-t-white" />
                   Joining…
                 </>
               ) : (
